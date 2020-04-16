@@ -1,4 +1,136 @@
+body{
+
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .borde{
     border: 1px solid black;
     padding: 15px;
+}
+
+#header {
+text-align: center;
+}
+
+#nav{
+    text-align: center;
+    
+}
+
+#nav a{
+    display: inline-block;
+    background-color: lightslategrey;
+    color: white;
+    padding: 0.2% 8%;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+#nav a:hover{
+    color: white;
+    background-color: gray;
+    
+}
+
+​
+#nav a:active{
+    color: black; 
+}
+
+#nav .activo{
+    background-color: orangered;
+}
+
+
+#quien-soy {
+    
+    display: flex;
+}
+
+#quien-soy #soy-dg{
+    margin-bottom: 1px;
+}
+
+#quien-soy #small{
+font-size: 12px;
+}
+#quien-soy #art-quien-soy{
+    text-align: justify;
+}
+
+#quien-soy #hr{
+background-color: black;
+  width: 225px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  margin-left: 0;
+    
+}
+
+#sec-a-que-me-dedico{
+    color: white;
+    background-color: #6fa8dc;
+    text-align: center;
+    
+}
+
+#sec-a-que-me-dedico h1{
+    margin-bottom: 0px;
+}
+
+#sec-a-que-me-dedico hr{
+    background-color:white;
+  width: 225px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+ 
+}
+
+#sec-como-puedo-ayudarte{
+    text-align: center;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios{
+    display: flex;
+
+    
+}
+
+#sec-como-puedo-ayudarte #sec-servicios .art-serv{
+    margin-left: 15px;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios article{
+    background-color: #ff9900;
+    color: white;
+    border: 3px solid #6fa8dc;
+}
+
+#sec-como-puedo-ayudarte #sec-servicios article p{
+    text-align: justify;
+}
+
+#sec-herramientas{
+    color: white;
+    text-align: center;
+    background-color: #6fa8dc;
+}
+
+#sec-herramientas table{
+    color: black;
+}
+
+#sec-herramientas tbody img{
+    width: 40%;
+}
+
+#footer{
+    text-align: center;
 }
