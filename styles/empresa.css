@@ -13,14 +13,15 @@ body{
 }
 
 #header {
-text-align: center;
-}
-
-#nav{
     text-align: center;
-    
-}
+    }
 
+    #nav{
+        text-align: center;
+        
+    }
+
+    
 #nav a{
     display: inline-block;
     background-color: lightslategrey;
@@ -40,32 +41,36 @@ text-align: center;
 ​
 #nav a:active{
     color: black; 
+    background-color: orangered;
 }
 
 #nav .activo{
     background-color: orangered;
 }
 
-
-#quien-soy {
+#sec-quienes-somos{
     
     display: flex;
 }
 
-#quien-soy #soy-dg{
+#sec-quienes-somos #quienes-somos{
     margin-bottom: 1px;
 }
 
-#quien-soy #small{
+#sec-quienes-somos img{
+    width: 100%;
+}
+
+#sec-quienes-somos #small{
 font-size: 12px;
 }
-#quien-soy #art-quien-soy{
+#sec-quienes-somos #art-quienes-somos{
     text-align: justify;
 }
 
-#quien-soy #hr{
+#sec-quienes-somos #hr{
 background-color: black;
-  width: 225px;
+  width: 150px;
   height: 3px;
   border-radius: 50%;
   transform: rotate(1deg);
@@ -73,18 +78,18 @@ background-color: black;
     
 }
 
-#sec-a-que-me-dedico{
+#sec-nuestro-equipo{
     color: white;
     background-color: #6fa8dc;
     text-align: center;
     
 }
 
-#sec-a-que-me-dedico h1{
+#sec-nuestro-equipo h1{
     margin-bottom: 0px;
 }
 
-#sec-a-que-me-dedico hr{
+#sec-nuestro-equipo hr{
     background-color:white;
   width: 225px;
   height: 3px;
@@ -93,41 +98,42 @@ background-color: black;
  
 }
 
-#sec-como-puedo-ayudarte{
+#sec-nuestros-empleados{
     text-align: center;
 }
 
-#sec-como-puedo-ayudarte #sec-servicios{
-    display: flex; 
+#sec-nuestros-empleados h1{
+    margin-bottom: 0;
+ }
+
+#sec-nuestros-empleados hr{
+background-color:black;
+  width: 225px;
+  height: 3px;
+  border-radius: 50%;
+  transform: rotate(1deg);
 }
 
-#sec-como-puedo-ayudarte #sec-servicios .art-serv{
-    margin-left: 15px;
+#sec-nuestros-empleados table {
+    margin: 2em auto;
+    width: 80%;
+    text-align: start;
 }
 
-#sec-como-puedo-ayudarte #sec-servicios article{
-    background-color: #ff9900;
-    color: white;
-    border: 3px solid #6fa8dc;
+#sec-nuestros-empleados table th {
+    text-align: left;
+    background-color: gray;
 }
 
-#sec-como-puedo-ayudarte #sec-servicios article p{
-    text-align: justify;
+#sec-nuestros-empleados table td {
+    height: 33px;
+    padding: 5px;
 }
 
-#sec-herramientas{
-    color: white;
-    text-align: center;
-    background-color: #6fa8dc;
+#sec-nuestros-empleados table tbody tr:nth-child(odd) {
+    background-color: lightgray;
 }
 
-#sec-herramientas table{
-    color: black;
-}
-
-#sec-herramientas tbody img{
-    width: 40%;
-}
 
 #footer{
     text-align: center;
